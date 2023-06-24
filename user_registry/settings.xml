@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+    <pluginGroups>
+        <!-- pluginGroup
+         | Specifies a further group identifier to use for plugin lookup.
+        <pluginGroup>com.your.plugins</pluginGroup>
+        -->
+    </pluginGroups>
+
+    <proxies>
+
+    </proxies>
+
+    <servers>
+              <server>
+  <id>dev-azure-com-Bishnoi-Harsh-kumar-Bishnoi-Harsh-kumar</id>
+  <username>Bishnoi-Harsh-kumar</username>
+  <password>ijuajlteogxbfrimz42jlceseve4fllakjuqda6a3rcg74t73mxq</password>
+   </server>
+    </servers>
+
+
+    <mirrors>
+
+    </mirrors>
+
+
+    <profiles>
+              <!--enable this for deploying to maven cnetral  profile>
+            <id>ossrh</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <gpg.passphrase>XXXXX</gpg.passphrase>
+            </properties>
+        </profile-->
+    </profiles>
+
+
+
+</settings>
